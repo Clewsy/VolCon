@@ -43,12 +43,21 @@ After even more time, I gave the project an overhaul. Revision 2 uses the same h
 * A couple of LEDs on the bottom of the PCB purely to visualise the gray code (revision 1 had LEDs, but they only barely shone through etched sections of the PCB).
 * Generally improved and cleaner code (still using the LUFA library).
 
+## Revision 2.1
+
+I've been experimenting with 3D prints so I designed and printed a "cap" for the volume controller.  Designed in [freecad][link_web_freecad], printed on a [Prusa CORE One+][link_web_prusa].  CAD files are [here][link_repo_volcon_cap].
+
+![volcon with a 3D-printed cap.][link_image_volcon_cap]
 ![The completed volcon.][link_image_volcon]
 
 [link_image_volcon]:volcon.jpg
+[link_image_volcon_cap]:hardware/cap/volcon_cap.jpg
 
 [link_clews_volcon]:https://clews.pro/projects/volcon.php
 
+[link_repo_volcon_cap]:/hardware/cap/
+
+[link_web_freecad]:https://www.freecad.org/
 [link_web_gray_code]:https://en.wikipedia.org/wiki/Gray_code
 [link_web_hackaday_podcast]:https://hackaday.com/category/podcasts/
 [link_web_hackaday_podcast_106]:https://hackaday.com/2021/02/19/hackaday-podcast-106-connector-kerfuffle-tuning-fork-time-spinach-contact-prints-and-teslas-permanent-memory/
@@ -57,5 +66,6 @@ After even more time, I gave the project an overhaul. Revision 2 uses the same h
 [link_web_hid]:https://en.wikipedia.org/wiki/USB_human_interface_device_class
 [link_web_kicad]:https://www.kicad.org/
 [link_web_lufa]:http://fourwalledcubicle.com/LUFA.php
+[link_web_prusa]:https://www.prusa3d.com/
 [link_web_quadrature_encoder]:https://en.wikipedia.org/wiki/Quadrature_encoder
 [link_web_vcr]:https://en.wikipedia.org/wiki/Videocassette_recorder
